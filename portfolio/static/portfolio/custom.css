@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    background-image:linear-gradient(#F9F2F0, #1C0E0D);
+    height: 100vh;
 }
 
 #blogtitle {
@@ -22,4 +24,31 @@ body {
         font-size: 5rem;
     }
 }
+
+.letters{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3rem;
+    position: relative;
+    top: 100px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  
+  .letters div{
+    position:relative;
+    left:200vh;
+    letter-spacing:0.2rem;
+  transition: all 2s ease-in;
+  }
+  
+  @keyframes slide{
+    0%{
+      left:200vh
+    }
+    100%{
+      left:0
+    }
+  }
+  
 
