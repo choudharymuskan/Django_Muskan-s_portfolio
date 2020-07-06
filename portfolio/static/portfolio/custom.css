@@ -16,7 +16,7 @@ body {
     font-size: 6rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 500px) {
     #hometext {
         font-size: 4rem;
     }
@@ -29,7 +29,7 @@ body {
     font-family: 'Chelsea Market', cursive;
     font-size: 3rem;
     position: relative;
-    top: 100px;
+    top: 50px;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
